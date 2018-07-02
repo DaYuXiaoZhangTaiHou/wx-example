@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view>界面/交互反馈</view>
+  <view bindtap='showToast'>wx.showToast(OBJECT)</view>
+  <view bindtap='showLoading'>wx.showLoading(OBJECT)</view>
+  <view bindtap='hideToast'>wx.hideToast()</view>
+  <view bindtap='hideLoading'>wx.hideLoading()</view>
+  <view bindtap='showModal'>wx.showModal(OBJECT)</view>
+  <view bindtap='showActionSheet'>wx.showActionSheet(OBJECT)</view>
+</view>
